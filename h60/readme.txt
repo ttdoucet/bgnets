@@ -5,7 +5,7 @@ features, and a new unified serialization scheme.
 The h60 topology is the same as that of the legacy netv3, except it has 60
 hidden units instead of 30.  It uses the same input features.
 
-It as trained by self-play only, and every million games a non-training playoff
+It was trained by self-play only, and every million games a non-training playoff
 was run against the legacy drc.w net.  It was very surprising that it quickly
 surpassed the performance of the legacy net.  See the plot.  It ends up about
 +0.08 per game over drc.w.
