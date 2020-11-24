@@ -35,7 +35,7 @@ def doit(fromfile, tofile, alpha=0.0, lambda_=1.0):
         sys.exit(1)
 
 
-os.system(f"{train} --games 0 -w {net_type} -o random.w");
+#os.system(f"{train} --games 0 -w {net_type} -o random.w");
 
 alpha, lambda_ = schedule(0)
 doit('random.w', 'h120-1.w', alpha, lambda_)
