@@ -114,7 +114,7 @@
 # final alpha: 0.001
 # lambda: 0.85
 # games per round: 1000000
-# rounds: 200
+# rounds: 150
 # decay per round: 1.0
 #
 ~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-100.w -o h60-b-101.w
@@ -267,53 +267,3 @@
 ~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-247.w -o h60-b-248.w
 ~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-248.w -o h60-b-249.w
 ~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-249.w -o h60-b-250.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-250.w -o h60-b-251.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-251.w -o h60-b-252.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-252.w -o h60-b-253.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-253.w -o h60-b-254.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-254.w -o h60-b-255.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-255.w -o h60-b-256.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-256.w -o h60-b-257.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-257.w -o h60-b-258.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-258.w -o h60-b-259.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-259.w -o h60-b-260.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-260.w -o h60-b-261.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-261.w -o h60-b-262.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-262.w -o h60-b-263.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-263.w -o h60-b-264.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-264.w -o h60-b-265.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-265.w -o h60-b-266.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-266.w -o h60-b-267.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-267.w -o h60-b-268.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-268.w -o h60-b-269.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-269.w -o h60-b-270.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-270.w -o h60-b-271.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-271.w -o h60-b-272.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-272.w -o h60-b-273.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-273.w -o h60-b-274.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-274.w -o h60-b-275.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-275.w -o h60-b-276.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-276.w -o h60-b-277.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-277.w -o h60-b-278.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-278.w -o h60-b-279.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-279.w -o h60-b-280.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-280.w -o h60-b-281.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-281.w -o h60-b-282.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-282.w -o h60-b-283.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-283.w -o h60-b-284.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-284.w -o h60-b-285.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-285.w -o h60-b-286.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-286.w -o h60-b-287.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-287.w -o h60-b-288.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-288.w -o h60-b-289.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-289.w -o h60-b-290.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-290.w -o h60-b-291.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-291.w -o h60-b-292.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-292.w -o h60-b-293.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-293.w -o h60-b-294.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-294.w -o h60-b-295.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-295.w -o h60-b-296.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-296.w -o h60-b-297.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-297.w -o h60-b-298.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-298.w -o h60-b-299.w
-~/src/backgammon/train --alpha 0.001 --alpha-end 0.001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-b-299.w -o h60-b-300.w
