@@ -36,3 +36,7 @@ Comments about strength relate to fast play with no lookahead.
        histories of some of the nets below.
 
 * **h60.w**: A strong player, trained in 2020, 300 million games.
+
+* **h90-100.w**: A slightly stronger player, 100 million games.
+
+* **h120-a-100.w**: Slightly stronger still, 100 million games.
