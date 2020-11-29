@@ -1,0 +1,10 @@
+white,black,trials,equity,sw,sl,gw,gl,bw,bl
+h30-50m-1.w, /home/todd/src/backgammon/nets/drc.w, 100000, -0.0895, 36306, 40116, 9904, 11804, 711, 1159
+h30-50m-2.w, /home/todd/src/backgammon/nets/drc.w, 100000, -0.0767, 36954, 39525, 9742, 12096, 776, 907
+h30-50m-3.w, /home/todd/src/backgammon/nets/drc.w, 100000, -0.0517, 35340, 40102, 11467, 11131, 800, 1160
+h30-50m-4.w, /home/todd/src/backgammon/nets/drc.w, 100000, -0.0434, 37180, 39843, 10421, 10705, 740, 1111
+h30-50m-5.w, /home/todd/src/backgammon/nets/drc.w, 100000, -0.0496, 37340, 40088, 10018, 10773, 774, 1007
+h30-50m-6.w, /home/todd/src/backgammon/nets/drc.w, 100000, -0.0504, 36023, 40287, 11078, 10666, 707, 1239
+h30-50m-7.w, /home/todd/src/backgammon/nets/drc.w, 100000, -0.035, 38485, 40232, 9577, 10043, 695, 968
+h30-50m-8.w, /home/todd/src/backgammon/nets/drc.w, 100000, -0.0398, 37535, 40085, 10214, 10354, 715, 1097
+h30-50m-9.w, /home/todd/src/backgammon/nets/drc.w, 100000, -0.028, 37948, 39509, 10358, 10419, 696, 1070
