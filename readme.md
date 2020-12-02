@@ -40,3 +40,11 @@ Comments about strength relate to fast play with no lookahead.
 * **h90-100.w**: A slightly stronger player, 100 million games.
 
 * **h120-a-100.w**: Slightly stronger still, 100 million games.
+
+Experiments
+-----------
+
+![100 million](img/100m.png)
+
+![50 million](img/50m.png)
+
