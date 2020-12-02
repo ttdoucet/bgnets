@@ -44,7 +44,11 @@ Comments about strength relate to fast play with no lookahead.
 Experiments
 -----------
 
-![100 million](img/100m.png)
+| ![100 million](img/100m.png) |
+|:--:|
+| Alpha starts at 0.001 and exponentially decays to 5e-3. Lambda is 0.85. |
 
-![50 million](img/50m.png)
 
+| ![50 million](img/50m.png) |
+|:--:|
+| Alpha starts at 0.001 and exponentially decays to 5e-3. Lambda is 0.85. |
