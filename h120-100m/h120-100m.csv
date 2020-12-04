@@ -122,3 +122,21 @@ h120-100m-120.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0901, 37451, 37
 h120-100m-121.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0918, 37768, 37305, 13690, 9874, 863, 500
 h120-100m-122.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0902, 38366, 36926, 13411, 10067, 763, 467
 h120-100m-123.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0836, 37642, 37115, 13694, 10241, 808, 500
+h120-100m-124.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0878, 37620, 37087, 13767, 10148, 858, 520
+h120-100m-125.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0872, 37885, 37133, 13561, 10116, 833, 472
+h120-100m-126.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0915, 38363, 36909, 13420, 10026, 793, 489
+h120-100m-127.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0875, 37006, 37073, 14314, 10242, 795, 570
+h120-100m-128.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.088, 37655, 37089, 13813, 10122, 803, 518
+h120-100m-129.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0808, 37914, 37129, 13430, 10283, 789, 455
+h120-100m-130.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0916, 37842, 36969, 13760, 10123, 821, 485
+h120-100m-131.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0986, 38296, 36843, 13596, 9950, 843, 472
+h120-100m-132.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0922, 37725, 36910, 13888, 10144, 820, 513
+h120-100m-133.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0877, 37862, 36876, 13667, 10230, 834, 531
+h120-100m-134.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0924, 37992, 36783, 13729, 10255, 801, 440
+h120-100m-135.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0862, 37719, 36872, 13788, 10328, 789, 504
+h120-100m-136.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0951, 37876, 36733, 13881, 10196, 823, 491
+h120-100m-137.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0914, 38104, 37084, 13617, 9954, 752, 489
+h120-100m-138.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.094, 37834, 37064, 13735, 10036, 871, 460
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Error reading net file: h120-100m-139.w
+Aborted (core dumped)
