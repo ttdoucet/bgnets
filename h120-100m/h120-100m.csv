@@ -137,6 +137,9 @@ h120-100m-135.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0862, 37719, 36
 h120-100m-136.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0951, 37876, 36733, 13881, 10196, 823, 491
 h120-100m-137.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0914, 38104, 37084, 13617, 9954, 752, 489
 h120-100m-138.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.094, 37834, 37064, 13735, 10036, 871, 460
-terminate called after throwing an instance of 'std::runtime_error'
-  what():  Error reading net file: h120-100m-139.w
-Aborted (core dumped)
+h120-100m-139.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0888, 37954, 37189, 13562, 10030, 808, 457
+h120-100m-140.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0947, 38100, 36756, 13746, 10097, 788, 513
+h120-100m-141.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0916, 37994, 36858, 13622, 10164, 865, 497
+h120-100m-142.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.087, 37617, 37089, 13843, 10137, 783, 531
+h120-100m-143.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0896, 38115, 37067, 13567, 10004, 755, 492
+h120-100m-144.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0928, 38538, 36891, 13364, 9944, 764, 499
