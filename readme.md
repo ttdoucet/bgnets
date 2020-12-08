@@ -37,20 +37,21 @@ Comments about strength relate to fast play with no lookahead.
 
 * **h60.w**: A strong player, trained in 2020, 300 million games.
 
-* **h90-100m-200.w**: A slightly stronger player, 200 million games.
+* **h90-100m-200.w**: A stronger player, trained as described below.
 
-* **h120-100m-200.w**: Currently the best net we have trained.
+* **h120-100m-200.w**: Currently the best net we have.  Trained as described below.
 
 Experiments
 -----------
 
 In these two experiments, lambda has been fixed at 0.85, and alpha starts at 0.001
 and decays exponentially.  Halfway through each run, alpha has decayed
-by a factor of 20, to 5e-5, and by the end of the run alpha had decreased
+by a factor of 20, to 5e-5, and by the end of the run alpha has decreased
 by a factor of 400, to 2.5e-6.
 
-Each plot shows four differently-sized nets, all using the netv3 format but differing
-in the number of hidden units as indicated.
+Each plot shows four differently-sized nets, all using the same
+feature set as netv3, but differing in the number of hidden units as
+indicated.
 
 Every million training games a snapshot is taken, and a playoff of 100 thousand games
 is done against a fixed opponenet, drc.w.
@@ -92,3 +93,10 @@ learning rate is such that it starts at 0.001 and still reaches 5e-5 at the half
 
 ![50 million](img/50m.png)
 
+
+Other
+-----
+
+This plot shows the training progress of all the nets we have recently trained.
+
+![All nets](img/all.png)
