@@ -44,11 +44,21 @@ Comments about strength relate to fast play with no lookahead.
 Experiments
 -----------
 
-| ![100 million](img/100m.png) |
-|:--:|
-| Alpha starts at 0.001 and exponentially decays to 5e-3. Lambda is 0.85. |
+In these two experiments, lambda has been fixed at 0.85, and alpha starts at 0.001
+and decays exponentially.  Halfway through each run, alpha has decayed
+by a factor of 20, to 5e-5, and by the end of the run alpha had decreased
+by a factor of 400, to 2.5e-6.
 
+Each plot shows four differently-sized nets, all using the netv3 format but differing
+in the number of hidden units as indicated.
 
-| ![50 million](img/50m.png) |
-|:--:|
-| Alpha starts at 0.001 and exponentially decays to 5e-3. Lambda is 0.85. |
+Every million training games a snapshot is taken, and a playoff of 100 thousand games
+is done against a fixed opponenet, drc.w.
+
+The foreground plot has been smoothed by a Savitzky-Golay first-order filter of width 7, and
+the actual playoff scores are shown receded.
+
+![100 million](img/100m.png)
+
+![50 million](img/50m.png)
+
