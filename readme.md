@@ -37,9 +37,9 @@ Comments about strength relate to fast play with no lookahead.
 
 * **h60.w**: A strong player, trained in 2020, 300 million games.
 
-* **h90-100.w**: A slightly stronger player, 100 million games.
+* **h90-100m-200.w**: A slightly stronger player, 200 million games.
 
-* **h120-a-100.w**: Slightly stronger still, 100 million games.
+* **h120-100m-200.w**: Currently the best net we have trained.
 
 Experiments
 -----------
@@ -59,6 +59,36 @@ The foreground plot has been smoothed by a Savitzky-Golay first-order filter of 
 the actual playoff scores are shown receded.
 
 ![100 million](img/100m.png)
+
+Given the typical variance of a single game in these nets (measured to
+be about 1.7), the standard error for a 100-thousand trial is about
+0.004 equity units, a little less than half a percent.  This is broadly
+seen in the receded plots, and the smoothed plots are simply an efficient
+way to simulate a larger playoff size.
+
+If we increase the playoff games to 1 million, the standard error goes down
+to about 0.001 equity units, allowing us to more-or-less believe tenths of
+a percent in a playoff result.
+
+Here are some playoff results at this higher 1-million game level:
+
+```
+white,black,trials,equity,sw,sl,gw,gl,bw,bl
+
+h120-100m-200.w, h90-100m-200.w,  1000000, 0.00426, 374197, 372751, 123159, 120154, 4337, 5402
+
+h120-100m-200.w, h120-100m-100.w, 1000000, 0.00589, 376407, 374167, 120363, 118284, 5305, 5474
+ h90-100m-200.w,  h90-100m-100.w, 1000000, 0.00602, 378826, 373728, 119789, 119052, 4211, 4394
+
+ h90-100m-200.w,           drc.w, 1000000, 0.0853, 380673, 371115, 134072, 102416, 7928, 3796
+h120-100m-200.w,           drc.w, 1000000, 0.0921, 380634, 370450, 135841,  99825, 8266, 4984
+
+```
+
+This second plot shows the results for an experiment like the previous, but which concludes in
+half the number of games.  Lambda is the same 0.85, and the rate of exponential decay of the
+learning rate is such that it starts at 0.001 and still reaches 5e-5 at the halfway point, and
+2.5e6 at the end:
 
 ![50 million](img/50m.png)
 
