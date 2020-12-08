@@ -89,7 +89,7 @@ h120-100m-200.w,           drc.w, 1000000, 0.0921, 380634, 370450, 135841,  9982
 This second plot shows the results for an experiment like the previous, but which concludes in
 half the number of games.  Lambda is the same 0.85, and the rate of exponential decay of the
 learning rate is such that it starts at 0.001 and still reaches 5e-5 at the halfway point, and
-2.5e6 at the end:
+2.5e-6 at the end:
 
 ![50 million](img/50m.png)
 
