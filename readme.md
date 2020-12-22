@@ -99,10 +99,14 @@ learning rate is such that it starts at 0.001 and still reaches 5e-5 at the half
 
 ![50 million](img/50m.png)
 
+Plots by Network Size
+---------------
 
-Other
------
+![120](img/h120m.png)
 
-This plot shows the training progress of all the nets we have recently trained.
+![90](img/h90m.png)
 
-![All nets](img/all.png)
+![60](img/h60m.png)
+
+![30](img/h30m.png)
+
