@@ -100,7 +100,7 @@ learning rate is such that it starts at 0.001 and still reaches 5e-5 at the half
 ![50 million](img/50m.png)
 
 Plots by Network Size
----------------
+---------------------
 
 ![120](img/h120m.png)
 
