@@ -395,3 +395,7 @@ h30-200m-393.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0215, 37459, 3
 h30-200m-394.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.024, 37398, 38935, 11997, 10296, 776, 598
 h30-200m-395.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0245, 37361, 38825, 12149, 10370, 707, 588
 h30-200m-396.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0244, 37595, 38783, 11922, 10304, 763, 633
+h30-200m-397.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0291, 37536, 38652, 12092, 10298, 784, 638
+h30-200m-398.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0205, 37525, 38780, 11968, 10456, 683, 588
+h30-200m-399.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0186, 37344, 39006, 11901, 10399, 762, 588
+h30-200m-400.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0218, 37692, 38858, 11816, 10306, 718, 610
