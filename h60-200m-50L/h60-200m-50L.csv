@@ -29,3 +29,6 @@ h60-200m-50L-27.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0357, 37235
 h60-200m-50L-28.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0453, 37683, 38881, 12243, 9881, 823, 489
 h60-200m-50L-29.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0548, 36605, 37787, 13633, 10558, 794, 623
 h60-200m-50L-30.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0532, 38454, 38538, 11934, 9756, 833, 485
+h60-200m-50L-31.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.056, 38607, 37955, 12087, 10072, 793, 486
+h60-200m-50L-32.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0331, 36706, 37525, 13044, 11225, 831, 669
+h60-200m-50L-33.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0516, 37825, 38297, 12457, 10094, 814, 513
