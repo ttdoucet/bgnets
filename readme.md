@@ -35,7 +35,7 @@ Comments about strength relate to fast play with no lookahead.
        called "good.w", and you might see that name in the playoff
        histories of some of the nets below.
 
-* **h60.w**: A strong player, trained in 2020, 300 million games.
+* **h60-200m-200.w**: A strong player, trained in 2020, 200 million games.
 
 * **h120-200m-200.w**: Currently the best net we have.  Trained as described below.
 
