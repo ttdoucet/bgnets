@@ -203,6 +203,3 @@ h60-200m-100L-201.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0516, 379
 h60-200m-100L-202.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0612, 37601, 37569, 12932, 10465, 909, 524
 h60-200m-100L-203.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0514, 38219, 37943, 12201, 10353, 836, 448
 h60-200m-100L-204.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0602, 38280, 37419, 12471, 10407, 883, 540
-terminate called after throwing an instance of 'std::runtime_error'
-  what():  Error reading net file: h60-200m-100L-205.w
-Aborted (core dumped)
