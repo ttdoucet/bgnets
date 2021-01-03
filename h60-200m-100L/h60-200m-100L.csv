@@ -194,3 +194,15 @@ h60-200m-100L-192.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0541, 381
 h60-200m-100L-193.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0621, 37653, 37581, 12993, 10440, 839, 494
 h60-200m-100L-194.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0598, 37867, 38010, 12670, 10097, 841, 515
 h60-200m-100L-195.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0522, 38257, 37873, 12300, 10249, 782, 539
+h60-200m-100L-196.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.06, 38065, 37461, 12645, 10531, 844, 454
+h60-200m-100L-197.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0578, 37610, 37433, 12934, 10640, 861, 522
+h60-200m-100L-198.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.059, 37617, 37741, 12834, 10474, 885, 449
+h60-200m-100L-199.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0563, 37456, 37777, 13006, 10437, 797, 527
+h60-200m-100L-200.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0537, 37711, 37465, 12790, 10708, 823, 503
+h60-200m-100L-201.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0516, 37900, 37692, 12541, 10517, 825, 525
+h60-200m-100L-202.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0612, 37601, 37569, 12932, 10465, 909, 524
+h60-200m-100L-203.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0514, 38219, 37943, 12201, 10353, 836, 448
+h60-200m-100L-204.w, /home/ubuntu/src/backgammon/nets/drc.w, 100000, 0.0602, 38280, 37419, 12471, 10407, 883, 540
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Error reading net file: h60-200m-100L-205.w
+Aborted (core dumped)
