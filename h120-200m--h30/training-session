@@ -1,0 +1,46 @@
+# This one with dual learning.
+train --games 0 -w Fc_Sig_H120_I3 -o h120-200m--h30-0.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-0.w -o h120-200m--h30-1.w -b ../h30-200m/h30-200m-200.w 
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-1.w -o h120-200m--h30-2.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-2.w -o h120-200m--h30-3.w -b ../h30-200m/h30-200m-200.w 
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-3.w -o h120-200m--h30-4.w -b ../h30-200m/h30-200m-200.w 
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-4.w -o h120-200m--h30-5.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-5.w -o h120-200m--h30-6.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-6.w -o h120-200m--h30-7.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-7.w -o h120-200m--h30-8.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-8.w -o h120-200m--h30-9.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-9.w -o h120-200m--h30-10.w -b ../h30-200m/h30-200m-200.w
+
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-10.w -o h120-200m--h30-11.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-11.w -o h120-200m--h30-12.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-12.w -o h120-200m--h30-13.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-13.w -o h120-200m--h30-14.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-14.w -o h120-200m--h30-15.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-15.w -o h120-200m--h30-16.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-16.w -o h120-200m--h30-17.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-17.w -o h120-200m--h30-18.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-18.w -o h120-200m--h30-19.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-19.w -o h120-200m--h30-20.w -b ../h30-200m/h30-200m-200.w
+
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-20.w -o h120-200m--h30-21.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-21.w -o h120-200m--h30-22.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-22.w -o h120-200m--h30-23.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-23.w -o h120-200m--h30-24.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-24.w -o h120-200m--h30-25.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-25.w -o h120-200m--h30-26.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-26.w -o h120-200m--h30-27.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-27.w -o h120-200m--h30-28.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-28.w -o h120-200m--h30-29.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-29.w -o h120-200m--h30-30.w -b ../h30-200m/h30-200m-200.w
+
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-30.w -o h120-200m--h30-31.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-31.w -o h120-200m--h30-32.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-32.w -o h120-200m--h30-33.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-33.w -o h120-200m--h30-34.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-34.w -o h120-200m--h30-35.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-35.w -o h120-200m--h30-36.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-36.w -o h120-200m--h30-37.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-37.w -o h120-200m--h30-38.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-38.w -o h120-200m--h30-39.w -b ../h30-200m/h30-200m-200.w
+train --alpha 0.001 --lambda 0.85 --games 1000000 -e 1000 -d -w h120-200m--h30-39.w -o h120-200m--h30-40.w -b ../h30-200m/h30-200m-200.w
+
