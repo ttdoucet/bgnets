@@ -81,3 +81,6 @@ h120-001A-85L--h30-79.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0756, 3
 h120-001A-85L--h30-80.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0831, 38838, 36920, 12749, 10265, 852, 376
 h120-001A-85L--h30-81.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.099, 37671, 36758, 13983, 10255, 922, 411
 h120-001A-85L--h30-82.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0816, 37874, 36994, 13404, 10422, 873, 433
+h120-001A-85L--h30-83.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0688, 38833, 37381, 12429, 10221, 737, 399
+h120-001A-85L--h30-84.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0799, 38051, 36241, 13380, 11049, 893, 386
+h120-001A-85L--h30-85.w, /home/todd/src/backgammon/nets/drc.w, 100000, 0.0851, 37727, 36645, 13759, 10563, 826, 480
