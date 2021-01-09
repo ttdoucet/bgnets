@@ -42,7 +42,7 @@ Comments about strength relate to fast play with no lookahead.
 Experiments
 -----------
 
-In these two experiments, lambda has been fixed at 0.85, and alpha starts at 0.001
+In these experiments, lambda has been fixed at 0.85, and alpha starts at 0.001
 and decays exponentially.  Halfway through each run, alpha has decayed
 by a factor of 20, to 5e-5, and by the end of the run alpha has decreased
 by a factor of 400, to 2.5e-6.
@@ -52,12 +52,22 @@ feature set as netv3, but differing in the number of hidden units as
 indicated.
 
 Every million training games a snapshot is taken, and a playoff of 100 thousand games
-is done against a fixed opponenet, drc.w.
+is done against a fixed opponenet, `drc.w`.
 
 The foreground plot has been smoothed by a Savitzky-Golay first-order filter of width 7, and
 the actual playoff scores are shown receded.
 
+Alpha decayed by a factor of 20 at 200 million games:
+
+![200 million](img/200m.png)
+
+Alpha decayed by a factor of 20 at 100 million games:
+
 ![100 million](img/100m.png)
+
+Alpha decayed by a factor of 20 at 50 million games:
+
+![50 million](img/50m.png)
 
 Given the typical variance of a single game in these nets (measured to
 be about 1.7), the standard error for a 100-thousand trial is about
@@ -86,23 +96,13 @@ h120-200m-200.w,  h60-200m-200.w, 1000000, 0.0277, 372616, 364886, 131111, 12142
 
 
 # It appears that h120-200m-300.w is slightly better than the others:
-
 h120-200m-400.w,           drc.w, 1000000, 0.111,    379693, 364271, 142518, 100772, 8403, 4343
 h120-200m-300.w,           drc.w, 1000000, 0.113,    380449, 365342, 141968, 99631,  8487, 4123
 h120-200m-400.w, h120-200m-300.w, 1000000, -0.00301, 369556, 368488, 125167, 126750, 4868, 5171
 
 h120-200m-400.w, h120-200m-200.w, 1000000, 0.00516,  368352, 363323, 128854, 129076, 5294, 5101
 h120-200m-300.w, h120-200m-200.w, 1000000, 0.00627,  369020, 364703, 128026, 128129, 5421, 4701
-
-
 ```
-
-This second plot shows the results for an experiment like the previous, but which concludes in
-half the number of games.  Lambda is the same 0.85, and the rate of exponential decay of the
-learning rate is such that it starts at 0.001 and still reaches 5e-5 at the halfway point, and
-2.5e-6 at the end:
-
-![50 million](img/50m.png)
 
 Plots by Network Size
 ---------------------
