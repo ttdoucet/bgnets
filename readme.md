@@ -137,3 +137,23 @@ A similar experiment for `h30` nets yields results that are somewhat different. 
 lambda is still the best, but the other values are significantly worse.
 
 ![h30 lambda](img/h30-200m-lambda.png)
+
+Training against an already-trained net.
+---------------------------------------
+
+A randomly-initialized large net is trained against a trained net
+which is much smaller.
+
+One net was trained with fixed alpha and lambda as shown.  Then
+at 66 thousand games, one path continued under that schedule, and
+another exponentially decayed lambda so that at 100 thousand games
+the total the value of alpha would be 20 times less, `5e-5`.
+
+For comparison, the reference net of the same size is shown, which
+was trained through self-play only.
+
+![cross training](img/cross.png)
+
+```
+h120-34m--h30-100.w, ../h120-200m/h120-200m-200.w, 1000000, -0.00413, 366406, 363657, 127569, 131977, 5518, 4873
+```
