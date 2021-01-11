@@ -122,6 +122,7 @@ The net `h60-200m-200.w` was trained according to the `200m` alpha schedule and 
 Playoffs against nets trained with other fixed values of lambda are as indicated.
 
 ```
+white,black,trials,equity,sw,sl,gw,gl,bw,bl
 h60-200m-200.w, h60-200m-50L-200.w,  1000000, 0.00142, 370333, 377440, 122724, 118897, 5449, 5157
 h60-200m-200.w, h60-200m-25L-200.w,  1000000, 0.00589, 374059, 375443, 121800, 119148, 5103, 4447
 h60-200m-200.w, h60-200m-0L-200.w,   1000000, 0.00604, 373574, 369626, 123779, 122564, 5172, 5285
@@ -155,5 +156,6 @@ was trained through self-play only.
 ![cross training](img/cross.png)
 
 ```
-h120-34m--h30-100.w, ../h120-200m/h120-200m-200.w, 1000000, -0.00413, 366406, 363657, 127569, 131977, 5518, 4873
+white,black,trials,equity,sw,sl,gw,gl,bw,bl
+h120-34m--h30-100.w, h120-200m-200.w, 1000000, -0.00413, 366406, 363657, 127569, 131977, 5518, 4873
 ```
