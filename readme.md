@@ -69,6 +69,12 @@ Alpha decayed by a factor of 20 at 50 million games:
 
 ![50 million](img/50m.png)
 
+
+Finally, alpha decayed by a factor of 20 at 400 million games:
+
+![400 million](img/400m.png)
+
+
 Given the typical variance of a single game in these nets (measured to
 be about 1.7), the standard error for a 100-thousand trial is about
 0.004 equity units, a little less than half a percent.  This is broadly
@@ -139,23 +145,3 @@ lambda is still the best, but the other values are significantly worse.
 
 ![h30 lambda](img/h30-200m-lambda.png)
 
-Training against an already-trained net.
----------------------------------------
-
-A randomly-initialized large net is trained against a trained net
-which is much smaller.
-
-One net was trained with fixed alpha and lambda as shown.  Then
-at 66 thousand games, one path continued under that schedule, and
-another exponentially decayed lambda so that at 100 thousand games
-the total the value of alpha would be 20 times less, `5e-5`.
-
-For comparison, the reference net of the same size is shown, which
-was trained through self-play only.
-
-![cross training](img/cross.png)
-
-```
-white,black,trials,equity,sw,sl,gw,gl,bw,bl
-h120-34m--h30-100.w, h120-200m-200.w, 1000000, -0.00413, 366406, 363657, 127569, 131977, 5518, 4873
-```
