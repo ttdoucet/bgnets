@@ -31,11 +31,11 @@ Comments about strength relate to fast play with no lookahead.
        common opponent when evaluating a net under training for
        performance.  We do not train against this net, only use it as
        an indicator of relative strength.  (All indications are that
-       playing strength is mostly transitive.)  This net used to be
+       relative playing strength is mostly transitive.)  This net used to be
        called "good.w", and you might see that name in the playoff
        histories of some of the nets below.
 
-* **h120-400m-500.w**: Currently among the best net we have.  Trained as described below.
+* **h120-400m-500.w**: Among the best of the nets we trained.
 
 Experiments
 -----------
@@ -55,6 +55,11 @@ is done against a fixed opponenet, `drc.w`.
 The foreground plot has been smoothed by a Savitzky-Golay first-order filter of width 7, and
 the actual playoff scores are shown receded.
 
+
+Alpha decayed by a factor of 20 at 400 million games:
+
+![400 million](img/400m.png)
+
 Alpha decayed by a factor of 20 at 200 million games:
 
 ![200 million](img/200m.png)
@@ -68,16 +73,12 @@ Alpha decayed by a factor of 20 at 50 million games:
 ![50 million](img/50m.png)
 
 
-Finally, alpha decayed by a factor of 20 at 400 million games:
-
-![400 million](img/400m.png)
-
 
 Given the typical variance of a single game in these nets (measured to
 be about 1.7), the standard error for a 100-thousand trial is about
 0.004 equity units, a little less than half a percent.  This is broadly
 seen in the receded plots, and the smoothed plots are simply an efficient
-way to simulate a larger playoff size.
+way to approximate a larger playoff size.
 
 If we increase the playoff games to 1 million, the standard error goes down
 to about 0.001 equity units, allowing us to more-or-less believe tenths of
@@ -97,15 +98,6 @@ h120-200m-200.w,           drc.w, 1000000, 0.105,  374360, 364899, 144597, 10292
 h120-200m-200.w,  h90-200m-200.w, 1000000, 0.0051, 363932, 369848, 131129, 125103, 4822, 5166
  h90-200m-200.w,  h60-200m-200.w, 1000000, 0.0212, 377278, 366260, 125482, 121257, 5154, 4569
 h120-200m-200.w,  h60-200m-200.w, 1000000, 0.0277, 372616, 364886, 131111, 121425, 5074, 4888
-
-
-# It appears that h120-200m-300.w is slightly better than the others:
-h120-200m-400.w,           drc.w, 1000000, 0.111,    379693, 364271, 142518, 100772, 8403, 4343
-h120-200m-300.w,           drc.w, 1000000, 0.113,    380449, 365342, 141968, 99631,  8487, 4123
-h120-200m-400.w, h120-200m-300.w, 1000000, -0.00301, 369556, 368488, 125167, 126750, 4868, 5171
-
-h120-200m-400.w, h120-200m-200.w, 1000000, 0.00516,  368352, 363323, 128854, 129076, 5294, 5101
-h120-200m-300.w, h120-200m-200.w, 1000000, 0.00627,  369020, 364703, 128026, 128129, 5421, 4701
 ```
 
 The hump we see on h120-400m and h90-400m is real:
@@ -124,6 +116,8 @@ h120-200m-250.w, h120-200m-200.w, 1000000, 0.00619, 367896, 365019, 129032, 1280
 
 ```
 
+We see from the `h120-400m` plot that it seems to peak about `5/8` of the way through, at 500
+million games.  The value of alpha here is close to `2.5e-5`.
 Among the best we currently have:
 ```
 h120-400m-500.w, h120-400m-800.w, 1000000,  0.00623, 372436, 373318, 124022, 120546, 4865, 4813
@@ -136,6 +130,62 @@ h120-400m-500.w,  h90-400m-500.w, 1000000,  0.00888, 371911, 367004, 125806, 124
 h120-400m-500.w,           drc.w, 1000000,  0.116,   384388, 363629, 139918,  99157, 8807, 4101
 
 ```
+
+The reason for the drop-off with additional training on the
+`h120-400m` and `h90-400m` nets is not yet understood, but it is not
+totally surprising that a form of over-learning can occur here.
+
+One possibility is that something numerical is happening with the net
+over time, perhaps the overall magnitude is growing excessively, because
+we do not use any form of regularization.
+
+Or it could be devoting resources to ever-more-accurate equity calculations
+for the opening positions it sees over and over.  More generally, it
+should be kept in mind that the net is trained to increase its
+accuracy in equity estimation, and better quality of play usually results.
+But it is conceivable that the net is getting better at estimating its
+play as it gets a little worse, and there is no reason to rule that
+out.
+
+Finally, another possibility is that the fall-off is related
+more to the decreasing alpha than to the quantity of training, and
+that with a small-enough alpha perhaps the net is getting into a hole
+that it cannot get itself out of.
+
+These are just speculations, and further investigation is merited.
+
+Regardless, these experiments yield what looks to be a very good player,
+at least for no-lookahead play: `h120-400m-500.w`.  That should be our
+default player until we can create a better one.
+
+### Future directions ###
+
+The nets in all of these experiments had essentially the same
+topology, and differed only in the number of hidden units.  Size
+matters a lot, and the original `h30` nets were too small: we got a
+big improvement by doubling, then doubling again.  There seems little
+doubt that making the net even bigger would result in more
+improvement, although they are getting slow to train.  Nevertheless,
+it could be done easily.
+
+Another direction is to investigate essentially different network
+topologies.  We have several in mind and the code base is getting to
+the point where these can be investigated conveniently.  There is
+still work to do on the codebase though.
+
+Yet another direction is batching.  These training sessions update the
+weights after each training game.  We could instead, for example,
+accumulate the updates and update the net after 100 games, or some
+other number.  Doing that would likely change the learning rate we
+should use, and in particular I think we would probably increase it
+signficantly.  Batching might work better, for reasons similar to why
+classification nets train better with batching.  Batching in this way
+would also allow us to parallelize the training significantly on the
+conventional-core machines we use.
+
+It is also important to re-implement the lookahead play that we used
+to have in the codebase, and see to what extent the play improves when
+using so-called two-ply equity estimation.
 
 
 Plots by Network Size
