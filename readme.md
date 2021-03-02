@@ -205,6 +205,11 @@ Varying Lambda
 The net `h60-200m-200.w` was trained according to the `200m` alpha schedule and with lambda equal to `0.85`.
 Playoffs against nets trained with other fixed values of lambda are as indicated.
 
+The conclusion is that the fixed lambda of `0.85` that we have settled
+on with experience seems to perform no worse than any other, and
+sometimes better than others.
+
+
 ```
 white,black,trials,equity,sw,sl,gw,gl,bw,bl
 h60-200m-200.w, h60-200m-50L-200.w,  1000000, 0.00142, 370333, 377440, 122724, 118897, 5449, 5157
