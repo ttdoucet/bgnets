@@ -5,3 +5,17 @@ h120-400m0.0005-b50-3.w, /Users/todd/src/backgammon/nets/drc.w, 100000, -0.0186,
 h120-400m0.0005-b50-4.w, /Users/todd/src/backgammon/nets/drc.w, 100000, -0.0188, 37073, 39668, 11069, 10523, 770, 897
 h120-400m0.0005-b50-5.w, /Users/todd/src/backgammon/nets/drc.w, 100000, -0.00608, 36991, 39061, 11668, 10640, 721, 919
 h120-400m0.0005-b50-6.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0105, 37089, 38439, 12075, 10817, 770, 810
+h120-400m0.0005-b50-7.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0194, 37382, 37411, 12315, 11531, 748, 613
+h120-400m0.0005-b50-8.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0167, 36752, 38489, 12367, 10929, 820, 643
+h120-400m0.0005-b50-9.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0181, 37917, 37579, 11772, 11414, 785, 533
+h120-400m0.0005-b50-10.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0377, 36793, 38421, 12961, 10490, 743, 592
+h120-400m0.0005-b50-11.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.033, 36813, 38140, 12829, 10918, 784, 516
+h120-400m0.0005-b50-12.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0309, 37212, 39135, 12345, 10117, 689, 502
+h120-400m0.0005-b50-13.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0202, 37240, 39901, 11828, 9892, 705, 434
+h120-400m0.0005-b50-14.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.046, 36878, 37576, 13231, 10948, 806, 561
+h120-400m0.0005-b50-15.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0466, 37203, 37650, 12990, 10844, 792, 521
+h120-400m0.0005-b50-16.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0578, 36847, 37882, 13437, 10489, 825, 520
+h120-400m0.0005-b50-17.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0578, 36891, 37781, 13457, 10591, 797, 483
+h120-400m0.0005-b50-18.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0398, 36186, 38033, 13538, 11035, 741, 467
+h120-400m0.0005-b50-19.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.072, 38044, 37372, 13069, 10272, 777, 466
+h120-400m0.0005-b50-20.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0508, 37319, 37778, 13030, 10628, 745, 500
