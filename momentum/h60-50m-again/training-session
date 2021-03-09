@@ -1,0 +1,124 @@
+# Initialize a new random network.
+#
+~/src/backgammon/train --games 0 -w Fc_Sig_H60_I3 -o h60-50m-b-0.w
+
+# initial alpha: 0.05
+# final alpha: 0.0025
+# lambda: 0.85
+# games per round: 1000000
+# rounds: 50
+# decay per round: 0.9418449208830277
+# opponent: self
+#
+~/src/backgammon/train --alpha 0.05 --alpha-end 0.04709224604415139 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-0.w -o h60-50m-b-1.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.04709224604415139 --alpha-end 0.04435359274965784 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-1.w -o h60-50m-b-2.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.04435359274965784 --alpha-end 0.04177420605417952 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-2.w -o h60-50m-b-3.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.04177420605417952 --alpha-end 0.03934482379605001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-3.w -o h60-50m-b-4.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.03934482379605001 --alpha-end 0.03705672245534739 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-4.w -o h60-50m-b-5.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.03705672245534739 --alpha-end 0.03490168582914098 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-5.w -o h60-50m-b-6.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.03490168582914098 --alpha-end 0.032871975528431574 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-6.w -o h60-50m-b-7.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.032871975528431574 --alpha-end 0.03096030319084446 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-7.w -o h60-50m-b-8.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.03096030319084446 --alpha-end 0.02915980430929545 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-8.w -o h60-50m-b-9.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.02915980430929545 --alpha-end 0.027464013582652946 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-9.w -o h60-50m-b-10.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.027464013582652946 --alpha-end 0.025866841699884163 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-10.w -o h60-50m-b-11.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.025866841699884163 --alpha-end 0.024362553474321202 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-11.w -o h60-50m-b-12.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.024362553474321202 --alpha-end 0.022945747249530586 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-12.w -o h60-50m-b-13.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.022945747249530586 --alpha-end 0.021611335502836088 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-13.w -o h60-50m-b-14.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.021611335502836088 --alpha-end 0.020354526576845222 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-14.w -o h60-50m-b-15.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.020354526576845222 --alpha-end 0.019170807473380274 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-15.w -o h60-50m-b-16.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.019170807473380274 --alpha-end 0.0180559276480296 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-16.w -o h60-50m-b-17.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0180559276480296 --alpha-end 0.017005883747128112 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-17.w -o h60-50m-b-18.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.017005883747128112 --alpha-end 0.016016905232359845 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-18.w -o h60-50m-b-19.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.016016905232359845 --alpha-end 0.01508544084136291 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-19.w -o h60-50m-b-20.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.01508544084136291 --alpha-end 0.014208145835719046 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-20.w -o h60-50m-b-21.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.014208145835719046 --alpha-end 0.013381869990537325 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-21.w -o h60-50m-b-22.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.013381869990537325 --alpha-end 0.01260364628250459 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-22.w -o h60-50m-b-23.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.01260364628250459 --alpha-end 0.011870680235783203 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-23.w -o h60-50m-b-24.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.011870680235783203 --alpha-end 0.011180339887498952 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-24.w -o h60-50m-b-25.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.011180339887498952 --alpha-end 0.01053014633678681 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-25.w -o h60-50m-b-26.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.01053014633678681 --alpha-end 0.009917764843457676 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-26.w -o h60-50m-b-27.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.009917764843457676 --alpha-end 0.00934099644432287 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-27.w -o h60-50m-b-28.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00934099644432287 --alpha-end 0.008797770057071917 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-28.w -o h60-50m-b-29.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.008797770057071917 --alpha-end 0.00828613504334997 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-29.w -o h60-50m-b-30.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00828613504334997 --alpha-end 0.007804254204330036 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-30.w -o h60-50m-b-31.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.007804254204330036 --alpha-end 0.007350397183628259 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-31.w -o h60-50m-b-32.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.007350397183628259 --alpha-end 0.006922934253873188 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-32.w -o h60-50m-b-33.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.006922934253873188 --alpha-end 0.006520330464617595 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-33.w -o h60-50m-b-34.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.006520330464617595 --alpha-end 0.006141140130578954 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-34.w -o h60-50m-b-35.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.006141140130578954 --alpha-end 0.005784001640416721 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-35.w -o h60-50m-b-36.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.005784001640416721 --alpha-end 0.0054476325674055895 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-36.w -o h60-50m-b-37.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0054476325674055895 --alpha-end 0.005130825064447923 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-37.w -o h60-50m-b-38.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.005130825064447923 --alpha-end 0.00483244152688961 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-38.w -o h60-50m-b-39.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00483244152688961 --alpha-end 0.004551410507565202 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-39.w -o h60-50m-b-40.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.004551410507565202 --alpha-end 0.004286722869403929 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-40.w -o h60-50m-b-41.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.004286722869403929 --alpha-end 0.004037428161781209 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-41.w -o h60-50m-b-42.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.004037428161781209 --alpha-end 0.003802631207603731 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-42.w -o h60-50m-b-43.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.003802631207603731 --alpha-end 0.0035814888888728684 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-43.w -o h60-50m-b-44.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0035814888888728684 --alpha-end 0.0033732071191839097 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-44.w -o h60-50m-b-45.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0033732071191839097 --alpha-end 0.0031770379922898355 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-45.w -o h60-50m-b-46.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0031770379922898355 --alpha-end 0.0029922770964905935 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-46.w -o h60-50m-b-47.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0029922770964905935 --alpha-end 0.002818260985204279 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-47.w -o h60-50m-b-48.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.002818260985204279 --alpha-end 0.0026543647946374476 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-48.w -o h60-50m-b-49.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0026543647946374476 --alpha-end 0.002500000000000001 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-49.w -o h60-50m-b-50.w -p 0.9 --batch-size 1
+# Initialize a new random network.
+#
+~/src/backgammon/train --games 0 -w Fc_Sig_H60_I3 -o h60-50m-b-0.w
+
+# initial alpha: 0.0025
+# final alpha: 0.000125
+# lambda: 0.85
+# games per round: 1000000
+# rounds: 50
+# decay per round: 0.9418449208830277
+# opponent: self
+#
+~/src/backgammon/train --alpha 0.0025 --alpha-end 0.0023546123022075696 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-50.w -o h60-50m-b-51.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0023546123022075696 --alpha-end 0.002217679637482892 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-51.w -o h60-50m-b-52.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.002217679637482892 --alpha-end 0.002088710302708976 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-52.w -o h60-50m-b-53.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.002088710302708976 --alpha-end 0.0019672411898025003 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-53.w -o h60-50m-b-54.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0019672411898025003 --alpha-end 0.0018528361227673693 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-54.w -o h60-50m-b-55.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0018528361227673693 --alpha-end 0.0017450842914570489 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-55.w -o h60-50m-b-56.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0017450842914570489 --alpha-end 0.0016435987764215787 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-56.w -o h60-50m-b-57.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0016435987764215787 --alpha-end 0.001548015159542223 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-57.w -o h60-50m-b-58.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.001548015159542223 --alpha-end 0.0014579902154647725 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-58.w -o h60-50m-b-59.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0014579902154647725 --alpha-end 0.0013732006791326472 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-59.w -o h60-50m-b-60.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0013732006791326472 --alpha-end 0.0012933420849942081 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-60.w -o h60-50m-b-61.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0012933420849942081 --alpha-end 0.00121812767371606 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-61.w -o h60-50m-b-62.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00121812767371606 --alpha-end 0.0011472873624765291 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-62.w -o h60-50m-b-63.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0011472873624765291 --alpha-end 0.001080566775141804 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-63.w -o h60-50m-b-64.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.001080566775141804 --alpha-end 0.001017726328842261 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-64.w -o h60-50m-b-65.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.001017726328842261 --alpha-end 0.0009585403736690136 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-65.w -o h60-50m-b-66.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0009585403736690136 --alpha-end 0.0009027963824014799 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-66.w -o h60-50m-b-67.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0009027963824014799 --alpha-end 0.0008502941873564055 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-67.w -o h60-50m-b-68.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0008502941873564055 --alpha-end 0.000800845261617992 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-68.w -o h60-50m-b-69.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.000800845261617992 --alpha-end 0.0007542720420681454 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-69.w -o h60-50m-b-70.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0007542720420681454 --alpha-end 0.0007104072917859521 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-70.w -o h60-50m-b-71.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0007104072917859521 --alpha-end 0.000669093499526866 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-71.w -o h60-50m-b-72.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.000669093499526866 --alpha-end 0.0006301823141252293 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-72.w -o h60-50m-b-73.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0006301823141252293 --alpha-end 0.0005935340117891599 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-73.w -o h60-50m-b-74.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0005935340117891599 --alpha-end 0.0005590169943749474 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-74.w -o h60-50m-b-75.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0005590169943749474 --alpha-end 0.0005265073168393403 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-75.w -o h60-50m-b-76.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0005265073168393403 --alpha-end 0.0004958882421728837 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-76.w -o h60-50m-b-77.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0004958882421728837 --alpha-end 0.0004670498222161434 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-77.w -o h60-50m-b-78.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0004670498222161434 --alpha-end 0.00043988850285359577 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-78.w -o h60-50m-b-79.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00043988850285359577 --alpha-end 0.00041430675216749845 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-79.w -o h60-50m-b-80.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00041430675216749845 --alpha-end 0.00039021271021650174 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-80.w -o h60-50m-b-81.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00039021271021650174 --alpha-end 0.0003675198591814129 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-81.w -o h60-50m-b-82.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0003675198591814129 --alpha-end 0.0003461467126936593 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-82.w -o h60-50m-b-83.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0003461467126936593 --alpha-end 0.0003260165232308797 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-83.w -o h60-50m-b-84.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0003260165232308797 --alpha-end 0.00030705700652894764 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-84.w -o h60-50m-b-85.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00030705700652894764 --alpha-end 0.000289200082020836 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-85.w -o h60-50m-b-86.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.000289200082020836 --alpha-end 0.00027238162837027945 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-86.w -o h60-50m-b-87.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00027238162837027945 --alpha-end 0.0002565412532223961 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-87.w -o h60-50m-b-88.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0002565412532223961 --alpha-end 0.00024162207634448045 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-88.w -o h60-50m-b-89.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00024162207634448045 --alpha-end 0.00022757052537826007 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-89.w -o h60-50m-b-90.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00022757052537826007 --alpha-end 0.00021433614347019642 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-90.w -o h60-50m-b-91.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00021433614347019642 --alpha-end 0.00020187140808906043 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-91.w -o h60-50m-b-92.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00020187140808906043 --alpha-end 0.00019013156038018652 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-92.w -o h60-50m-b-93.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00019013156038018652 --alpha-end 0.0001790744444436434 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-93.w -o h60-50m-b-94.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0001790744444436434 --alpha-end 0.00016866035595919544 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-94.w -o h60-50m-b-95.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00016866035595919544 --alpha-end 0.00015885189961449173 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-95.w -o h60-50m-b-96.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00015885189961449173 --alpha-end 0.00014961385482452962 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-96.w -o h60-50m-b-97.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00014961385482452962 --alpha-end 0.0001409130492602139 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-97.w -o h60-50m-b-98.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.0001409130492602139 --alpha-end 0.00013271823973187236 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-98.w -o h60-50m-b-99.w -p 0.9 --batch-size 1
+~/src/backgammon/train --alpha 0.00013271823973187236 --alpha-end 0.00012500000000000003 --lambda 0.85 --games 1000000 -d -e 1000 -w h60-50m-b-99.w -o h60-50m-b-100.w -p 0.9 --batch-size 1
