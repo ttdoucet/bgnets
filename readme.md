@@ -228,3 +228,16 @@ lambda is still the best, but the other values are significantly worse.
 
 ![h30 lambda](img/h30-200m-lambda.png)
 
+
+Momentum
+--------
+
+TBD: Analysis
+
+```
+h120-200m-01a-400.w, /Users/todd/src/bgnets/h120-200m/h120-200m-400.w, 1000000, 0.00274, 369610, 368817, 125649, 125207, 5535, 5182
+h120-200m-01a-400.w, /Users/todd/src/bgnets/h120-200m/h120-200m-400.w, 1000000, 0.000184, 368164, 369887, 125966, 125374, 5425, 5184
+h120-200m-01a-250.w, /Users/todd/src/bgnets/h120-200m/h120-200m-250.w, 1000000, -0.00292, 371505, 369790, 123088, 125384, 5110, 5123
+h120-200m-01a-250.w, /Users/todd/src/bgnets/h120-400m/h120-400m-500.w, 1000000, -0.00412, 368856, 374190, 123793, 122809, 5051, 5301
+h120-200m-01a-400.w, /Users/todd/src/bgnets/h120-400m/h120-400m-500.w, 1000000, -0.00288, 369526, 374074, 123371, 122546, 5244, 5239
+```
