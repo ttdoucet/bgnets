@@ -448,4 +448,12 @@ h60-400m0.0005-b10-446.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.074, 
 h60-400m0.0005-b10-447.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0765, 38432, 37120, 12907, 10315, 806, 420
 h60-400m0.0005-b10-448.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0633, 37892, 37680, 12885, 10393, 764, 386
 h60-400m0.0005-b10-449.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0651, 37804, 37396, 13109, 10501, 743, 447
-libc++abi: terminating with uncaught exception of type std::runtime_error: Error reading net file: h60-400m0.0005-b10-450.w
+h60-400m0.0005-b10-450.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0662, 38300, 37582, 12663, 10257, 780, 418
+h60-400m0.0005-b10-451.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0715, 37994, 37230, 13114, 10482, 777, 403
+h60-400m0.0005-b10-452.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0793, 38096, 36831, 13331, 10529, 784, 429
+h60-400m0.0005-b10-453.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0688, 37787, 37377, 13120, 10540, 806, 370
+h60-400m0.0005-b10-454.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.067, 38163, 37391, 12916, 10384, 717, 429
+h60-400m0.0005-b10-455.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0714, 38134, 37324, 13028, 10381, 739, 394
+h60-400m0.0005-b10-456.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0753, 38458, 37395, 12880, 10150, 727, 390
+h60-400m0.0005-b10-457.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0697, 38149, 37347, 12907, 10400, 790, 407
+h60-400m0.0005-b10-458.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0824, 38382, 37169, 13031, 10177, 840, 401
