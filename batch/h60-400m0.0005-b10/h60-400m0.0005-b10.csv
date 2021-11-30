@@ -434,3 +434,18 @@ h60-400m0.0005-b10-432.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0811,
 h60-400m0.0005-b10-433.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0744, 38358, 37221, 12881, 10365, 799, 376
 h60-400m0.0005-b10-434.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0758, 37984, 37007, 13294, 10532, 771, 412
 h60-400m0.0005-b10-435.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0806, 38303, 37066, 13128, 10311, 794, 398
+h60-400m0.0005-b10-436.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0762, 38334, 37304, 12918, 10241, 808, 395
+h60-400m0.0005-b10-437.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.075, 38394, 37258, 12909, 10282, 764, 393
+h60-400m0.0005-b10-438.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0782, 38311, 37054, 13128, 10337, 748, 422
+h60-400m0.0005-b10-439.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0657, 37906, 37306, 13009, 10581, 785, 413
+h60-400m0.0005-b10-440.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0767, 38385, 37148, 13010, 10256, 755, 446
+h60-400m0.0005-b10-441.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0809, 38604, 37182, 12940, 10128, 747, 399
+h60-400m0.0005-b10-442.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0659, 38153, 37385, 12852, 10422, 754, 434
+h60-400m0.0005-b10-443.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0805, 38233, 37115, 13209, 10292, 759, 392
+h60-400m0.0005-b10-444.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0695, 38216, 37342, 12856, 10386, 789, 411
+h60-400m0.0005-b10-445.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0711, 38084, 37264, 13068, 10390, 752, 442
+h60-400m0.0005-b10-446.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.074, 37929, 37391, 13155, 10314, 802, 409
+h60-400m0.0005-b10-447.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0765, 38432, 37120, 12907, 10315, 806, 420
+h60-400m0.0005-b10-448.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0633, 37892, 37680, 12885, 10393, 764, 386
+h60-400m0.0005-b10-449.w, /Users/todd/src/backgammon/nets/drc.w, 100000, 0.0651, 37804, 37396, 13109, 10501, 743, 447
+libc++abi: terminating with uncaught exception of type std::runtime_error: Error reading net file: h60-400m0.0005-b10-450.w
